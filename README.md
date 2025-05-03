@@ -15,24 +15,24 @@ Running `mvn clean site site:stage -DstagingDirectory=C:\temp\foo` yields the fo
 [...]
 [INFO] --- site:3.21.0:stage (default-cli) @ parent ---
 [INFO] Using this base directory for staging: C:\temp\foo
-[INFO] Pushing D:\programming\maven-site-test-aggregator-parent-separate\parent\target\site
+[INFO] Pushing D:\programming\aggregator\parent\target\site
 [INFO]    >>> to file://C:\temp\foo/./
-[...]
+[...]]
 [INFO] --- site:3.21.0:stage (default-cli) @ child ---
 [INFO] Using this base directory for staging: C:\temp\foo
-[INFO] Pushing D:\programming\maven-site-test-aggregator-parent-separate\child\target\site
+[INFO] Pushing D:\programming\aggregator\child\target\site
 [INFO]    >>> to file://C:\temp\foo/../child
 [...]
 [INFO] --- site:3.21.0:stage (default-cli) @ aggregator ---
 [INFO] Using this base directory for staging: C:\temp\foo
-[INFO] Pushing D:\programming\maven-site-test-aggregator-parent-separate\target\site
+[INFO] Pushing D:\programming\aggregator\target\site
 [INFO]    >>> to file://C:\temp\foo/./
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary for aggregator 1.0-SNAPSHOT:
 [INFO] 
-[INFO] parent ............................................. SUCCESS [  3.871 s]
-[INFO] child .............................................. SUCCESS [  0.690 s]
-[INFO] aggregator ......................................... SUCCESS [  0.615 s]
+[INFO] parent ............................................. SUCCESS [  3.562 s]
+[INFO] child .............................................. SUCCESS [  0.723 s]
+[INFO] aggregator ......................................... SUCCESS [  0.652 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
