@@ -1,5 +1,5 @@
 This project consists of three modules: `aggregator`, `parent` and `child`. `aggregator` 
-aggregates the two other project, `parent` is the parent project of `child`. Notably, `aggreagator`
+aggregates the two other projects, `parent` is the parent project of `child`. Notably, `aggreagator`
 is not the parent project.
 
 Running `mvn clean site site:stage` yields the following output:
