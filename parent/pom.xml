@@ -35,7 +35,7 @@
     <distributionManagement>
         <site>
             <id>site</id>
-            <url>https://test.com/parent/</url>
+            <url>https://test.com/aggregator/parent/</url>
         </site>
     </distributionManagement>
 </project>
